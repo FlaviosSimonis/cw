@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   border: 1px solid black;
-  margin: 0 7.5px 15px;
+  margin: 0 15px 15px;
   overflow: hidden;
 
   &:hover {
@@ -14,7 +14,7 @@
 
     & .background-image {
       transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
+      transition: transform 2s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
 
     & .category-body-container {
@@ -27,11 +27,11 @@
   }
 
   & :first-child {
-    margin-left: 7.5px;
+    margin-left: 0px;
   }
 
   & :last-child {
-    margin-left: 7.5px;
+    margin-left: 0px;
   }
 
   .background-image {

@@ -22,6 +22,6 @@ const CartIcon = () => {
       <ItemCount>{cartCount}</ItemCount>
     </CartIconContainer>
   )
-}
+};
 
 export default CartIcon;

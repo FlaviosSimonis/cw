@@ -9,13 +9,14 @@ import { selectIsCartOpen } from '../../store/cart/cart.selector';
 import { selectCurrentUser } from '../../store/user/user.selector';
 import { signOutStart } from '../../store/user/user.action';
 
-import { ReactComponent as CwLogo } from '../../assets/Green-Logo.svg';
+// import { ReactComponent as CwLogo } from '../../assets/Green-Logo.svg';
 
 import {
   NavigationContainer,
   NavLinks,
   NavLink,
   LogoContainer,
+  Logo
 } from './navigation.styles';
 
 const Navigation = () => {
@@ -29,7 +30,7 @@ const Navigation = () => {
     <Fragment>
       <NavigationContainer>
         <LogoContainer to='/'>
-          <CwLogo className='logo' />
+          <Logo className='logo' />
         </LogoContainer>
         <NavLinks>
           <NavLink to='/shop'>SHOP</NavLink>
